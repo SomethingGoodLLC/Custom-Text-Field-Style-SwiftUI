@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7594D97927FA421C00A21662 /* GradientTextFieldBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7594D97827FA421C00A21662 /* GradientTextFieldBackground.swift */; };
+		7594D97C27FA46CE00A21662 /* customText.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7594D97B27FA46CE00A21662 /* customText.jpeg */; };
 		759A97FD27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A97FC27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5App.swift */; };
 		759A97FF27F9E1AA00A6D4D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A97FE27F9E1AA00A6D4D5 /* ContentView.swift */; };
 		759A980127F9E1AB00A6D4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759A980027F9E1AB00A6D4D5 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7594D97827FA421C00A21662 /* GradientTextFieldBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientTextFieldBackground.swift; sourceTree = "<group>"; };
+		7594D97A27FA44BE00A21662 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7594D97B27FA46CE00A21662 /* customText.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = customText.jpeg; sourceTree = "<group>"; };
 		759A97F927F9E1AA00A6D4D5 /* TextFieldChallengeM1L5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldChallengeM1L5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759A97FC27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldChallengeM1L5App.swift; sourceTree = "<group>"; };
 		759A97FE27F9E1AA00A6D4D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +40,8 @@
 		759A97F027F9E1AA00A6D4D5 = {
 			isa = PBXGroup;
 			children = (
+				7594D97A27FA44BE00A21662 /* README.md */,
+				7594D97B27FA46CE00A21662 /* customText.jpeg */,
 				759A97FB27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5 */,
 				759A97FA27F9E1AA00A6D4D5 /* Products */,
 			);
@@ -53,6 +60,7 @@
 			children = (
 				759A97FC27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5App.swift */,
 				759A97FE27F9E1AA00A6D4D5 /* ContentView.swift */,
+				7594D97827FA421C00A21662 /* GradientTextFieldBackground.swift */,
 				759A980027F9E1AB00A6D4D5 /* Assets.xcassets */,
 				759A980227F9E1AB00A6D4D5 /* Preview Content */,
 			);
@@ -127,6 +135,7 @@
 			files = (
 				759A980427F9E1AB00A6D4D5 /* Preview Assets.xcassets in Resources */,
 				759A980127F9E1AB00A6D4D5 /* Assets.xcassets in Resources */,
+				7594D97C27FA46CE00A21662 /* customText.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +148,7 @@
 			files = (
 				759A97FF27F9E1AA00A6D4D5 /* ContentView.swift in Sources */,
 				759A97FD27F9E1AA00A6D4D5 /* TextFieldChallengeM1L5App.swift in Sources */,
+				7594D97927FA421C00A21662 /* GradientTextFieldBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

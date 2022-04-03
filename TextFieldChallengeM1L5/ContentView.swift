@@ -8,9 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var name = ""
+    @State var email = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            // MARK: - Name TextField
+            TextField("Name", text: $name)
+                .textFieldStyle(
+                    GradientTextFieldBackground(
+                        systemImageString: "person"
+                    )
+                )
+            
+            // MARK: Email TextField
+                TextField("Email", text: $email)
+                    .textFieldStyle(
+                        GradientTextFieldBackground(
+                            systemImageString: "envelope"
+                        )
+                    )
+        }
+        .padding()
     }
 }
 
