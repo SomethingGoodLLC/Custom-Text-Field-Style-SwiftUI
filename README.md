@@ -1,4 +1,4 @@
-# Custom TextField Style Challenge 
+# Custom TextField Style in SwiftUI
 This repo describes how to make a custom TextField style, which you can apply to any text field.
 It is in response to the wonderful iOS design course's Module 1 Challenge 5 from CodeWithChris:
 https://learn.codewithchris.com/courses/take/design/texts/25883395-lesson-5-challenge
